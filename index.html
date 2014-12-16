@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	
+	<style>
+		#map{
+			padding-bottom: 20%;
+		}
+		#infobox-container{
+			display: none; /* Necessary */
+		}
+		
+
+		.infoBox > img{
+			/* Close button */
+			position: absolute !important;
+			right: 0;
+		}
+		#infobox{
+			color: #ecf0f1;
+			display: table;
+			height: 100%;
+			text-align: center;
+			width: 100%;
+		}
+		#infobox h1{
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+
+	</style>
+</head>
+<body>
+	
+	<div id="map"></div>
+	<div id="infobox-container" class="infobox-container"> 
+		<div id="infobox"> <!-- The infobox needs to be inside a container which is hidden. -->
+			<h1>Hello!</h1>
+		</div>
+	</div>
+
+	<p>Docs can be found at <a href="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/docs/reference.html" target="_blank">http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/docs/reference.html</a></p>
+
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>	
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/infobox.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
