@@ -1,4 +1,5 @@
-#Infobox Google Maps Example
+Infobox-Google-Maps-Example
+===========================
 
 This is a little example showing how to create your own Infobox, using Google Maps API.
 
